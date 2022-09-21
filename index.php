@@ -177,7 +177,7 @@
     <div class="container">
         <header>
             <div class="title">
-                <img src="http://www.clker.com/cliparts/c/d/5/2/1197095254713349411johnny_automatic_granny.svg.thumb.png" alt='Granny' title="Granny" />
+                <img src="./public/granny.png" alt='Granny' title="Granny" />
             </div>
             <nav>
                 <ul>
