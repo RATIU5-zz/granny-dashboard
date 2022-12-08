@@ -10,7 +10,6 @@
         * {
             box-sizing: border-box;
         }
-
         body {
             padding: 0;
             margin: 0;
@@ -19,7 +18,6 @@
             background-color: #FDFDFD;
             font-family: Arial, Helvetica, sans-serif;
         }
-
         h1,
         h2,
         h3,
@@ -28,28 +26,22 @@
         h6 {
             font-weight: 100;
         }
-
         h1 {
             font-size: 2.5rem;
         }
-
         h2 {
             font-size: 1.75rem;
         }
-
         h3 {
             font-size: 1.25rem;
         }
-
         h4 {
             font-size: 1.05rem;
         }
-
         p {
             line-height: 1.75rem;
             letter-spacing: 0.05rem;
         }
-
         .container {
             display: flex;
             flex-wrap: nowrap;
@@ -57,16 +49,13 @@
             justify-content: center;
             height: 100vh;
         }
-
         header,
         footer {
             flex-grow: 0;
         }
-
         main {
             flex-grow: 1;
         }
-
         header {
             position: sticky;
             display: flex;
@@ -77,31 +66,25 @@
             max-width: 50rem;
             width: 100%;
         }
-
         nav ul li a {
             text-decoration: none;
             color: #888888;
         }
-
         nav ul li a:hover {
             color: #222222;
         }
-
         nav ul li {
             list-style-type: none;
             margin: 0 0.75rem;
             display: inline-block;
         }
-
         nav ul li:last-child {
             margin: 0 0 0 0.75rem;
             display: inline-block;
         }
-
         .title {
             font-weight: 100;
         }
-
         .title img {
             display: inline-block;
             height: 5rem;
@@ -109,24 +92,20 @@
             padding: 0;
             z-index: 1;
         }
-
         footer p {
             text-align: center;
         }
-
         .content {
             padding: 0 1rem;
             margin: 6rem auto 0 auto;
             max-width: 100ch;
         }
-
         .ul-tree,
         .li-branch {
             list-style: none;
             margin: 0;
             padding: 0;
         }
-
         .directory-container {
             max-height: 50rem;
             overflow: auto;
@@ -134,38 +113,31 @@
             background: #F5F5F5;
             padding: 1rem;
         }
-
         .li-branch.file p {
             margin: 0 0 0 1.2rem;
         }
-
         .li-branch.branch-empty {
             font-style: italic;
             color: #BEBEBE;
             border-color: silver;
         }
-
         .li-branch p a {
             color: #333333;
             text-decoration: none;
             border-bottom: solid 1px #333333;
         }
-
         .li-branch p a::after {
             text-decoration: none;
             content: " ↗︎";
             font-size: 0.9rem;
             border-bottom: solid 3px #F5F5F5;
         }
-
         details summary {
             cursor: default;
         }
-
         .li-branch details .ul-tree {
             margin-left: 1.2rem;
         }
-
         details summary p {
             margin: 0;
             display: inline;
@@ -195,7 +167,7 @@
 
                         <ul class="ul-tree">
                             <?php
-                            define("WD", "/var/www/html");
+                            define("WD", "/var/www/localhost/htdocs/www");
 
                             function listFolderFiles($dir)
                             {
