@@ -167,7 +167,7 @@
 
                         <ul class="ul-tree">
                             <?php
-                            define("WD", "/var/www/localhost/htdocs/www/");
+                            define("WD", "/var/www/localhost/htdocs/");
 
                             function listFolderFiles($dir)
                             {
