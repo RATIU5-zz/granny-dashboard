@@ -178,8 +178,6 @@
                                 unset($ffs[array_search('.', $ffs, true)]);
                                 unset($ffs[array_search('..', $ffs, true)]);
 
-																var_dump($ffs);
-
                                 // Display empty folder
                                 if (count($ffs) < 1) {
                                     echo '<li class="li-branch file branch-empty"><p>No projects!</p></li>';
