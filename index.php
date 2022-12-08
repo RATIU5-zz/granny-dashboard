@@ -167,7 +167,7 @@
 
                         <ul class="ul-tree">
                             <?php
-                            define("WD", "/var/www/localhost/htdocs/www");
+                            define("WD", "/var/www/localhost/htdocs/www/");
 
                             function listFolderFiles($dir)
                             {
@@ -180,7 +180,7 @@
 
                                 // Display empty folder
                                 if (count($ffs) < 1) {
-                                    echo '<li class="li-branch file branch-empty"><p>empty</p></li>';
+                                    echo '<li class="li-branch file branch-empty"><p>No projects!</p></li>';
                                     return;
                                 }
 
