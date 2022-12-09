@@ -194,7 +194,7 @@
                                         listFolderFiles($path);
                                         echo '</ul></details></li>';
                                     } else {
-                                        echo '<li class="li-branch file"><p><a href="' . $url . '">' . $ff . '</a></p></li>';
+                                        echo '<li class="li-branch file"><p><a href="' . $url . '">' . $ff . ': ' . filetype($path) . '</a></p></li>';
                                     }
                                 }
                             }
