@@ -187,7 +187,7 @@
                                 foreach ($ffs as $ff) {
                                     $path = $dir  . "/" . $ff;
                                     // Retrieve the docker working directory for php
-                                    $url = 'http://localhost' . substr($path, strlen(WD), strlen($path));
+                                    $url = 'http://localhost/www' . substr($path, strlen(WD), strlen($path));
 
                                     if (is_dir($path)) {
                                         echo '<li class="tree-container li-branch"><details><summary><p>' . $ff . '</p></summary><ul class="ul-tree">';
