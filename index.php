@@ -189,7 +189,7 @@
                                     // Retrieve the docker working directory for php
                                     $url = 'http://localhost/www' . substr($path, strlen(WD), strlen($path));
 
-                                    if (is_dir($path)) {
+                                    if (is_link($path)) {
                                         echo '<li class="tree-container li-branch"><details><summary><p>' . $ff . '</p></summary><ul class="ul-tree">';
                                         listFolderFiles($path);
                                         echo '</ul></details></li>';
